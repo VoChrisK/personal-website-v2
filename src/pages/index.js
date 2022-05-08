@@ -1,11 +1,11 @@
 import React from "react"
 
-import { AboutInfo } from '../components';
+import { About } from '../components';
 
 const Index = () => {
   return (
     <div id="root">
-      <AboutInfo />
+      <About />
       Hello World!
     </div>
   )

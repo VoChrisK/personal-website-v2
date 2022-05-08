@@ -15,11 +15,17 @@ const config: GatsbyConfig = {
     "gatsby-plugin-smoothscroll", {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "assets",
-        "path": "./src/assets/"
+        "name": "content",
+        "path": "./src/content"
       },
       __key: "images"
-    }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
+      },
+    },
   ]
 };
 
