@@ -6,7 +6,6 @@ const Index = () => {
   return (
     <div id="root">
       <About />
-      Hello World!
     </div>
   )
 };

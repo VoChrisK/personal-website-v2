@@ -1,5 +1,6 @@
 ---
 title: 'Hero'
+section: 'hero'
 --- 
 
 Hello, my name is

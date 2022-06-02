@@ -1,13 +1,12 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import { Description } from '../shared';
+import { Description, Section, SectionHeader } from '../shared';
 
 export const About = () => {
-  //may need to change query to filter based on ID (query($id: String!)) instead
   const data = useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: {title: {eq: "About me"}}) {
+      markdownRemark(frontmatter: {section: {eq: "about"}}) {
         html
         frontmatter {
           title
@@ -19,9 +18,12 @@ export const About = () => {
   const { html, frontmatter } = data.markdownRemark
 
   return (
-    <>
-      <h1>{ frontmatter.title }</h1>
-      <Description dangerouslySetInnerHTML={{ __html: html }}></Description>
-    </>
+    <Section>
+      <SectionHeader>{ frontmatter.title }</SectionHeader>
+      <div>
+        
+        <Description dangerouslySetInnerHTML={{ __html: html }}></Description>
+      </div>
+    </Section>
   );
 }

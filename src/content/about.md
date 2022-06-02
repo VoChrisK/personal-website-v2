@@ -1,5 +1,6 @@
 ---
-title: 'About me'
+title: '01. About me'
+section: 'about'
 ---
 
 Hello there! My name is Chris and I am a programming enthusiast. I enjoy creating things and solving problems through coding!<br>
