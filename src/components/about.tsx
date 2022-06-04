@@ -21,7 +21,6 @@ export const About = () => {
     <Section>
       <SectionHeader>{ frontmatter.title }</SectionHeader>
       <div>
-        
         <Description dangerouslySetInnerHTML={{ __html: html }}></Description>
       </div>
     </Section>
