@@ -12,13 +12,27 @@ const config: GatsbyConfig = {
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp", 
     "gatsby-plugin-scroll-reveal", 
-    "gatsby-plugin-smoothscroll", {
+    "gatsby-plugin-smoothscroll", 
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "content",
-        "path": "./src/content"
+        "name": "images",
+        "path": "./src/assets/images"
       },
-      __key: "images"
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'content',
+        path: `./src/assets/content`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'documents',
+        path: `./src/assets/documents`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,

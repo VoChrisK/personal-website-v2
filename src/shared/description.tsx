@@ -4,7 +4,7 @@ import { Color } from '../models'
 
 export const Description = styled.p`
   color: ${ Color.TextColor };
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
   width: 65.25rem;
 `;

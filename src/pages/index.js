@@ -1,10 +1,11 @@
 import React from "react"
 
-import { About, LeftSideBar } from '../components';
+import { About, Hero, LeftSideBar } from '../components';
 
 const Index = () => {
   return (
     <div id="root">
+      <Hero />
       <About />
       <LeftSideBar />
     </div>
