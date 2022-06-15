@@ -4,4 +4,4 @@ export enum Color {
   FooterColor = '#161616', // Darkest Gray
   BackgroundColor = '#272727', // DarkerGray
   BoxColor = '#2e2e2e' // DarkGray
-};
+}
