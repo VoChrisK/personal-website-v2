@@ -1,5 +1,6 @@
 ---
 title: 'Harmony'
+year: '2020'
 type: 'Personal Project'
 repo: 'https://github.com/VoChrisK/Harmony'
 link: 'https://harmony-chat.herokuapp.com/#/'

@@ -1,5 +1,6 @@
 ---
 title: 'Caesar Cipher'
+year: '2020'
 type: 'Personal Project'
 repo: 'https://github.com/VoChrisK/caesar-cipher'
 ---

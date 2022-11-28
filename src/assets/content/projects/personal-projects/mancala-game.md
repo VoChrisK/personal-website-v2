@@ -1,5 +1,6 @@
 ---
 title: 'Mancala Game'
+year: '2018'
 type: 'Personal Project'
 repo: 'https://github.com/VoChrisK/Mancala-Game'
 ---

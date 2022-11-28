@@ -1,5 +1,6 @@
 ---
 title: 'Social Security Benefit Calculator'
+year: '2022'
 type: 'Enterprise App'
 company: 'Fidelity Investments'
 link: 'https://digital.fidelity.com/stgw/digital/planning/retirement/guided-retirement-path/social-security'

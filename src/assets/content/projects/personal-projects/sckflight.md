@@ -1,5 +1,6 @@
 ---
 title: 'SCKFlight'
+year: '2018'
 type: 'Personal Project'
 repo: 'https://github.com/khoavo09/SCKFlight'
 ---

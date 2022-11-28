@@ -1,5 +1,6 @@
 ---
 title: 'Interactive Twelvefold Way'
+year: '2020'
 type: 'Personal Project'
 repo: 'https://github.com/VoChrisK/interactive-twelvefold-way'
 link: 'https://vochrisk.github.io/interactive-twelvefold-way/'
