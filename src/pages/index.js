@@ -1,6 +1,6 @@
 import React from "react"
 
-import { About, Hero, LeftSideBar } from '../components';
+import { About, Hero, LeftSideBar, Navbar } from '../components';
 
 const Index = () => {
   return (
@@ -8,6 +8,7 @@ const Index = () => {
       <Hero />
       <About />
       <LeftSideBar />
+      <Navbar />
     </div>
   )
 };

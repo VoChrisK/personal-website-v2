@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Chris Vo's Personal Website`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://chrisvo.dev/`
   },
   plugins: [
     "gatsby-plugin-styled-components", 

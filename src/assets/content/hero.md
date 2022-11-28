@@ -3,8 +3,8 @@ title: 'Hero'
 section: 'hero'
 --- 
 
-# Chris Vo
+# Hello, my name is
 
-## Full-Stack Software Engineer
+## Chris Vo
 
-### Push Spacebar Key
+### I'm a Software Engineer based in the San Francisco Bay Area where I specialize in building enterprise web applications
