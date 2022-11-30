@@ -16,6 +16,14 @@
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": ["error"],
-    "no-console": ["error"]
+    "no-console": ["error"],
+    "sort-imports": ["warn", {
+      "ignoreCase": false,
+      "ignoreDeclarationSort": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["all", "single", "multiple", "none"],
+      "allowSeparatedGroups": false
+    }],
+    "multiline-comment-style": ["error", "starred-block"]
   }
 }

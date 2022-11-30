@@ -1,13 +1,14 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 
 import { Section } from '../shared';
 import { Color } from '../models';
 
 const HeroContent = styled.div`
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   h1 {
@@ -25,6 +26,8 @@ const HeroContent = styled.div`
   }
 `;
 
+console.log('placeholder');
+
 export const Hero = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -34,11 +37,11 @@ export const Hero = () => {
     }
   `);
 
-  const { html } = data.markdownRemark
+  const { markdownRemark } = data;
 
   return (
     <Section>
-      <HeroContent dangerouslySetInnerHTML={{ __html: html }}></HeroContent>
+      <HeroContent dangerouslySetInnerHTML={{ __html: markdownRemark.html }}></HeroContent>
     </Section>
   );
 };
