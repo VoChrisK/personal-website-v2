@@ -1,10 +1,10 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
+import { graphql, useStaticQuery } from 'gatsby';
 
-import { Section } from '../shared';
 import { Color } from '../models';
+// import { StaticImage } from 'gatsby-plugin-image';
+import { Section } from '../shared';
 
 const HeroContent = styled.div`
   display: flex;
@@ -25,8 +25,6 @@ const HeroContent = styled.div`
     color: ${ Color.TextColor };
   }
 `;
-
-console.log('placeholder');
 
 export const Hero = () => {
   const data = useStaticQuery(graphql`

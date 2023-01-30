@@ -2,7 +2,8 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "unused-imports"
   ],
   "settings": {
     "react": {
@@ -16,14 +17,7 @@
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": ["error"],
-    "no-console": ["error"],
-    "sort-imports": ["warn", {
-      "ignoreCase": false,
-      "ignoreDeclarationSort": false,
-      "ignoreMemberSort": false,
-      "memberSyntaxSortOrder": ["all", "single", "multiple", "none"],
-      "allowSeparatedGroups": false
-    }],
-    "multiline-comment-style": ["error", "starred-block"]
+    "unused-imports/no-unused-imports": "error",
+    "no-console": ["error"]
   }
 }
