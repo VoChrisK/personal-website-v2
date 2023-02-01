@@ -14,11 +14,33 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
     "prettier"
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": ["error"],
-    "unused-imports/no-unused-imports": "error",
-    "no-console": ["error"]
+    "@typescript-eslint/no-empty-function": ["error"],
+    "@typescript-eslint/no-extra-semi": ["warn"],
+    "import/newline-after-import": ["error"],
+    "import/no-unresolved": ["off"],
+    "import/order": ["error", {
+      "groups": [
+        ["builtin", "external"],
+        ["parent", "sibling", "index"]
+      ],
+      "newlines-between": "always",
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      }
+    }],
+    "unused-imports/no-unused-imports": ["error"],
+    "no-implicit-coercion": "error",
+    "no-console": "warn",
+    "no-empty": "warn",
+    "prefer-const": "warn",
+    "prefer-destructuring": "warn",
+    "no-extra-semi": "off",
+    "no-empty-function": "off"
   }
 }

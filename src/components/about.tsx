@@ -1,5 +1,5 @@
-import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
 
 import { Description, Section, SectionHeader } from '../shared';
 
