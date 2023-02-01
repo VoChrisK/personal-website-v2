@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-import { Color } from '../models'
+import { Color } from '../models';
 
 export const Description = styled.p`
-  color: ${ Color.TextColor };
-  font-size: 1rem;
-  line-height: 1.5;
-  width: 65.25rem;
+	color: ${Color.TextColor};
+	font-size: 1rem;
+	line-height: 1.5;
+	width: 65.25rem;
 `;

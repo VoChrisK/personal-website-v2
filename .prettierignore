@@ -1,0 +1,6 @@
+.cache/**
+*.json
+*.md
+*.css
+gatsby-browser.ts
+gatsby-config.ts
