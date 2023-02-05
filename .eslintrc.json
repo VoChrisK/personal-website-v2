@@ -37,6 +37,7 @@
     "unused-imports/no-unused-imports": ["error"],
     "no-implicit-coercion": "error",
     "no-console": "warn",
+    "no-inline-comments": "warn",
     "no-empty": "warn",
     "prefer-const": "warn",
     "prefer-destructuring": "warn",

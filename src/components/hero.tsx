@@ -4,25 +4,37 @@ import styled from 'styled-components';
 
 import { Color } from '../models';
 // import { StaticImage } from 'gatsby-plugin-image';
-import { Section } from '../shared';
+import { Button, Section } from '../shared';
 
 const HeroContent = styled.div`
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	justitfy-content: space-between;
+	align-items: center;
 
 	h1 {
 		color: ${Color.HeaderColor};
-		font-size: 2rem;
-		margin-bottom: 10rem;
+		font-size: 1.5rem;
+		margin: 1rem;
 	}
 
 	h2 {
 		color: ${Color.TextColor};
+		font-size: 4rem;
+		margin: 0rem;
 	}
 
 	h3 {
 		color: ${Color.TextColor};
+		width: 40vw;
+		text-align: center;
+		line-height: 1.5;
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+
+		strong {
+			color: ${Color.HeaderColor};
+		}
 	}
 `;
 
@@ -42,6 +54,7 @@ export const Hero = () => {
 			<HeroContent
 				dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
 			></HeroContent>
+			<Button>Check out my resume!</Button>
 		</Section>
 	);
 };

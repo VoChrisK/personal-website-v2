@@ -7,4 +7,4 @@ section: 'hero'
 
 ## Chris Vo
 
-### I'm a Software Engineer based in the San Francisco Bay Area where I specialize in building enterprise web applications
+### and I am a software developer at **PayPal** specializing in building exceptional web experiences using an array of full stack development tools.

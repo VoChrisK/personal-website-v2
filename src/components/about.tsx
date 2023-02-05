@@ -19,9 +19,8 @@ export const About = () => {
 
 	return (
 		<Section>
-			<img src={require('../assets/images/portrait.png')} />
 			<SectionHeader>{frontmatter.title}</SectionHeader>
-			<div>
+			<div style={{ 'min-height': 'auto' }}>
 				<Description dangerouslySetInnerHTML={{ __html: html }}></Description>
 			</div>
 		</Section>

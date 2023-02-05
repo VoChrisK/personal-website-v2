@@ -1,3 +1,4 @@
+export { Button } from './button';
 export { Description } from './description';
 export { Icon } from './icon';
 export { Section } from './section';

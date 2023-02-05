@@ -43,8 +43,8 @@ export const Navbar = () => {
 				<List>About</List>
 				<List>Experience</List>
 				<List>Projects</List>
+				<List>Personal</List>
 				<List>Contact</List>
-				<List>Resume</List>
 			</LinkList>
 		</Navigation>
 	);

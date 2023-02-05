@@ -5,8 +5,8 @@ section: 'about'
 
 Hello there!
 
-My name is Chris and I am a programming and technology enthusiast. I enjoy creating things and solving problems using my main arsenal: code!
+My name is Chris and I am a programmer and creator. I enjoy creating exceptional
 
-I began my journey into software development when I first built and programmed a couple of simplistic games on ROBLOX using the scripting language Lua. That was well over a decade ago. Today, I am a professional software developer who have made significant contributions to enterprise applications. I am adept in full-stack development and I have professional experience and expertise in a variety of modern languages and technologies.
+I began my journey into software development when I built a couple of games on ROBLOX using their own in-house game editor and **Lua** on my own. That was well over a decade ago. Today I am a professional software developer who has made significant contributions to enterprise applications used by thousands of people. I am proficient in developing full-stack applications and I have professional experience and expertise in a variety of modern technologies.
 
-In my spare time, I like to play a lot of video games (League of Legends and Runescape to name a few) and exercise (weightlifting, rock climbing, and running). I also like to hike, read, and cook from time to time.
+In my spare time, I like to play video games and keep myself fit through hiking, running, lifting, and climbing. I also like to read, cook, and travel.
